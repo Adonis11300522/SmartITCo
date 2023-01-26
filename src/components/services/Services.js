@@ -25,7 +25,7 @@ export const ServicesSection = () => {
 
 							<div className="services-content">
 								<h3><a href="services-details.html">Website & Mobile Design</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
 
 								<a href="services-details.html" className="read-more">
 									Read More
@@ -45,7 +45,7 @@ export const ServicesSection = () => {
 
 							<div className="services-content">
 								<h3><a href="services-details.html">Website Development</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
 
 								<a href="services-details.html" className="read-more">
 									Read More
@@ -65,7 +65,7 @@ export const ServicesSection = () => {
 
 							<div className="services-content">
 								<h3><a href="services-details.html">Mobile Development</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
 
 								<a href="services-details.html" className="read-more">
 									Read More
@@ -85,7 +85,7 @@ export const ServicesSection = () => {
 
 							<div className="services-content">
 								<h3><a href="services-details.html">Software Development</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
 
 								<a href="services-details.html" className="read-more">
 									Read More
