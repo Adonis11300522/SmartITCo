@@ -1,3 +1,6 @@
+import { Image } from 'react-bootstrap';
+import Icon from '../../assets/img/icon.svg';
+
 export const CounterSection = () => {
     return (
         <div className="CounterSection">
@@ -13,11 +16,11 @@ export const CounterSection = () => {
                             <div className="col-lg-6 col-sm-6">
                                 <div className="single-counter overly-one">
                                     <div className="overly-two">
-                                        <i className="flaticon-authentication"></i>
+                                        <i className='d-flex'><Image src={Icon} width="80"/></i>
                                         <h2>
-                                            <span className="odometer" data-count="365">00</span>
+                                            <span className="odometer" data-count="100">00</span><span className="target">%</span> 
                                         </h2>
-                                        <h3>Clients Protection</h3>
+                                        <h3>Customer Satisfaction</h3>
                                     </div>
                                 </div>
                             </div>
@@ -25,11 +28,11 @@ export const CounterSection = () => {
                             <div className="col-lg-6 col-sm-6">
                                 <div className="single-counter overly-one">
                                     <div className="overly-two">
-                                        <i className="flaticon-reliability"></i>
+                                        <i className='d-flex'><Image src={Icon} width="80"/></i>
                                         <h2>
-                                            <span className="odometer" data-count="1000">00</span> 
+                                            <span className="odometer" data-count="100">00</span><span className="target">%</span>  
                                         </h2>
-                                        <h3>Trusted Organizations</h3>
+                                        <h3>Quick Responsiveness</h3>
                                     </div>
                                 </div>
                             </div>
@@ -37,11 +40,11 @@ export const CounterSection = () => {
                             <div className="col-lg-6 col-sm-6">
                                 <div className="single-counter overly-one">
                                     <div className="overly-two">
-                                        <i className="flaticon-web-protection"></i>
+                                        <i className='d-flex'><Image src={Icon} width="80"/></i>
                                         <h2>
-                                            <span className="odometer" data-count="567">00</span> 
+                                            <span className="odometer" data-count="100">00</span><span className="target">%</span> 
                                         </h2>
-                                        <h3>Website Protection</h3>
+                                        <h3>Timely Delivery</h3>
                                     </div>
                                 </div>
                             </div>
@@ -49,12 +52,11 @@ export const CounterSection = () => {
                             <div className="col-lg-6 col-sm-6">
                                 <div className="single-counter overly-one">
                                     <div className="overly-two">
-                                        <i className="flaticon-innovation"></i>
+                                        <i className='d-flex'><Image src={Icon} width="80"/></i>
                                         <h2>
-                                            <span className="odometer" data-count="100">00</span> 
-                                            <span className="target">%</span>
+                                            <span className="odometer" data-count="24">00</span><span className="target">/</span><span className="odometer" data-count="7">00</span>
                                         </h2>
-                                        <h3>Innovative Technology</h3>
+                                        <h3>Working Time</h3>
                                     </div>
                                 </div>
                             </div>

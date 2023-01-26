@@ -13,7 +13,7 @@ export const Footer = () => {
                                     <Image src={Logo} alt="Image"/>
                                 </a>
 
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consec tetur adipiscing.</p>
+                                <p>We provide you with the talent and capabilities to outsource your software development. Whether a single developer or a complex multi-team solution, we are always timezone aligned and highly responsive.</p>
 
                                 <ul className="social-icon">
                                     <li>
@@ -47,17 +47,17 @@ export const Footer = () => {
                                 <ul className="address">
                                     <li className="location">
                                         <i className="bx bxs-location-plus"></i>
-                                        6890 Blvd, The Bronx, NY 1058 New York, USA
+                                        2104 Stech Dr, Bridgewater Township, NJ 08807, USA
                                     </li>
                                     <li>
                                         <i className="bx bxs-envelope"></i>
-                                        <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#5b333e3737341b283e2a2f2275383436"><span className="__cf_email__" data-cfemail="c1a9a4adadae81b2a4b0b5b8efa2aeac">[email&#160;protected]</span></a>
-                                        <a href="#">skype: example</a>
+                                        <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#5b333e3737341b283e2a2f2275383436"><span className="__cf_email__" data-cfemail="c1a9a4adadae81b2a4b0b5b8efa2aeac">example@smart.it.co</span></a>
+                                        <a href="#">skype: adonis11300522@gmail.com</a>
                                     </li>
                                     <li>
                                         <i className="bx bxs-phone-call"></i>
-                                        <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
-                                        <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
+                                        <a href="tel:+1-(514)-312-5678">+1 (804) 571-0993</a>
+                                        <a href="tel:+1-(514)-312-5678">+1 (804) 571-0993</a>
                                     </li>
                                 </ul>
                             </div>
@@ -69,22 +69,19 @@ export const Footer = () => {
 
                                 <ul className="import-link">
                                     <li>
-                                        <a href="#">Secure Private Cloud</a>
+                                        <a href="#">Website Design</a>
                                     </li>
                                     <li>
-                                        <a href="#">Online Backup</a>
+                                        <a href="#">Mobile Design</a>
                                     </li>
                                     <li>
-                                        <a href="#">Secure Websites</a>
+                                        <a href="#">Website Development</a>
                                     </li>
                                     <li>
-                                        <a href="#">Cyber-Security</a>
+                                        <a href="#">Mobile Development</a>
                                     </li>
                                     <li>
-                                        <a href="#">Enterprise Networks</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Collaboration</a>
+                                        <a href="#">Software Development</a>
                                     </li>
                                 </ul>
                             </div>
@@ -122,23 +119,8 @@ export const Footer = () => {
             <div className="copy-right-area">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-6">
-                            <p>© Seqty is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
-                        </div>
-
-                        <div className="col-lg-6 col-md-6">
-                            <ul className="footer-menu">
-                                <li>
-                                    <a href="privacy-policy.html" target="_blank">
-                                        Privacy Policy
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="terms-conditions.html" target="_blank">
-                                        Terms & Conditions
-                                    </a>
-                                </li>
-                            </ul>
+                        <div className="col-lg-12 col-md-12">
+                            <p className="text-center">COPYRIGHT © SMART IT CO. 2023 | ALL RIGHTS RESERVED</p>
                         </div>
                     </div>
                 </div>

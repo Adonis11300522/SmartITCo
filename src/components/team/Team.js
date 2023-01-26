@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
-import TeamMember1 from "../../assets/img/team/team-img-1.jpg";
-import TeamMember2 from "../../assets/img/team/team-img-2.jpg";
+import TeamMember1 from "../../assets/img/team/team-img-7.jpg";
+import TeamMember2 from "../../assets/img/team/team-img-8.jpg";
 import TeamMember3 from "../../assets/img/team/team-img-3.jpg";
 
 export const TeamSection = () => {
@@ -19,8 +19,8 @@ export const TeamSection = () => {
                                 <Image src={TeamMember1} alt="Image"/>
 
                                 <div className="team-content">
-                                    <h3>Ciaran Sebastian</h3>
-                                    <span>Commercial Director</span>
+                                    <h3>Tyler Minegar</h3>
+                                    <span>Full Stack Engineer</span>
 
                                     <ul>
                                         <li>
@@ -53,8 +53,8 @@ export const TeamSection = () => {
                                 <Image src={TeamMember2} alt="Image"/>
 
                                 <div className="team-content">
-                                    <h3>Jendoubi Bayer</h3>
-                                    <span>Financial Officer</span>
+                                    <h3>Jin Jin</h3>
+                                    <span>Full Stack Engineer</span>
 
                                     <ul>
                                         <li>

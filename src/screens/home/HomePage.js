@@ -10,6 +10,7 @@ import { ServicesSection } from "../../components/services/Services";
 import { PricingSection } from "../../components/pricing/Pricing";
 import { CounterSection } from "../../components/counter/Counter";
 import { TeamSection } from "../../components/team/Team";
+import { PageTitleSection } from "../../components/pagetitle/PageTitle";
 
 export default function HomePage () {
 
@@ -30,10 +31,8 @@ export default function HomePage () {
                 <div className="HomePage">
                     <CarouselBanner/>
                     <FeatureSection/>
-                    <ApproachSection/>
                     <ChallengesSection/>
                     <ServicesSection/>
-                    <PricingSection/>
                     <CounterSection/>
                     <TeamSection/>
                 </div>

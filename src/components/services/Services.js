@@ -1,8 +1,8 @@
 import { Image } from "react-bootstrap";
-import ServiceImg1 from '../../assets/img/services/services-1.jpg';
-import ServiceImg2 from '../../assets/img/services/services-2.jpg';
-import ServiceImg3 from '../../assets/img/services/services-3.jpg';
-import ServiceImg4 from '../../assets/img/services/services-4.jpg';
+import ServiceImg1 from '../../assets/img/services/services-12.jpg';
+import ServiceImg2 from '../../assets/img/services/services-11.jpg';
+import ServiceImg3 from '../../assets/img/services/services-10.jpg';
+import ServiceImg4 from '../../assets/img/services/services-9.jpg';
 
 export const ServicesSection = () => {
     return (
@@ -10,8 +10,8 @@ export const ServicesSection = () => {
             <section className="services-area pt-100 pb-70">
 			<div className="container">
 				<div className="section-title">
-					<span>Cyber Security Services</span>
-					<h2>You Can Protect Your Organization’s Cybersecurity By Services Us</h2>
+					<span>Our Services</span>
+					<h2>You Can Receive The Best Service Provided By Us As Below.</h2>
 				</div>
 
 				<div className="row">
@@ -24,7 +24,7 @@ export const ServicesSection = () => {
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Website Scanning</a></h3>
+								<h3><a href="services-details.html">Website & Mobile Design</a></h3>
 								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
 
 								<a href="services-details.html" className="read-more">
@@ -44,7 +44,7 @@ export const ServicesSection = () => {
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Malware Removal</a></h3>
+								<h3><a href="services-details.html">Website Development</a></h3>
 								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
 
 								<a href="services-details.html" className="read-more">
@@ -64,7 +64,7 @@ export const ServicesSection = () => {
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Cloud Security</a></h3>
+								<h3><a href="services-details.html">Mobile Development</a></h3>
 								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
 
 								<a href="services-details.html" className="read-more">
@@ -84,7 +84,7 @@ export const ServicesSection = () => {
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Data Protection</a></h3>
+								<h3><a href="services-details.html">Software Development</a></h3>
 								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
 
 								<a href="services-details.html" className="read-more">
