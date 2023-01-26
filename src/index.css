@@ -19,3 +19,8 @@ code {
 .react-multiple-carousel__arrow {
   background: #e21f36 !important;
 }
+
+.modal-body .nav-link {
+  color: #e21f36 !important;
+  font-weight: 500;
+}
