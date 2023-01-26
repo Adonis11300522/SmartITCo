@@ -89,17 +89,17 @@ export const Footer = () => {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Resources</h3>
+                                <h3>Cases</h3>
 
                                 <ul className="import-link">
                                     <li>
-                                        <a href="#">Cybersecurity Strategies</a>
+                                        <a href="#">Mobile Application with AI</a>
                                     </li>
                                     <li>
-                                        <a href="#">Security Advisories</a>
+                                        <a href="#">E-commerce platform</a>
                                     </li>
                                     <li>
-                                        <a href="#">Security News</a>
+                                        <a href="#">ERP platform</a>
                                     </li>
                                     <li>
                                         <a href="#">Blog</a>

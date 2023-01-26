@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.react-multi-carousel-dot-list.custom-dot-list-style {
+  display: none;
+}
+
+.react-multiple-carousel__arrow {
+  background: #e21f36 !important;
+}

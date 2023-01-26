@@ -9,7 +9,7 @@ export default function ContactPage() {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(true);
-        }, 5000);
+        }, 3000);
     }, []);
 
     return (
@@ -86,19 +86,19 @@ export default function ContactPage() {
                                             <li className="location">
                                                 <i className="bx bxs-location-plus"></i>
                                                 <span>Address</span>
-                                                6890 Blvd, The Bronx, NY  1058 New York, USA
+                                                2104 Stech Dr, Bridgewater Township, NJ 08807, USA
                                             </li>
                                             <li>
                                                 <i className="bx bxs-phone-call"></i>
                                                 <span>Phone</span>
-                                                <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
-                                                <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
+                                                <a href="tel:+1-(514)-312-5678">+1 (804) 571-0993</a>
+                                                <a href="tel:+1-(514)-312-6677">+1 (804) 571-0993</a>
                                             </li>
                                             <li>
                                                 <i className="bx bxs-envelope"></i>
                                                 <span>Email</span>
-                                                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#c6aea3aaaaa986b5a3b7b2bfe8a5a9ab"><span className="__cf_email__" data-cfemail="a9c1ccc5c5c6e9daccd8ddd087cac6c4">[email&#160;protected]</span></a>
-                                                <a href="#">skype: example</a>
+                                                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#c6aea3aaaaa986b5a3b7b2bfe8a5a9ab"><span className="__cf_email__" data-cfemail="a9c1ccc5c5c6e9daccd8ddd087cac6c4"></span></a>
+                                                <a href="#">skype: adonis11300522@gmail.com</a>
                                             </li>
                                         </ul>
 

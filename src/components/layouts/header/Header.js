@@ -28,85 +28,11 @@ export const Header = () => {
 									</li>
 
 									<li className="nav-item">
-										<Link to="/" className="nav-link">Services<i className="bx bx-chevron-down"></i></Link>
+										<Link to="/service" className="nav-link">Services</Link>
+									</li>
 
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<a href="about.html" className="nav-link">About Us</a>
-											</li>
-
-											<li className="nav-item">
-												<a href="#" className="nav-link">
-													Services
-													<i className="bx bx-chevron-right"></i>
-												</a>
-		
-												<ul className="dropdown-menu">
-													<li className="nav-item">
-														<a href="services-style-one.html" className="nav-link">Services Style One</a>
-													</li>
-													<li className="nav-item">
-														<a href="services-style-two.html" className="nav-link">Services Style Two</a>
-													</li>
-													<li className="nav-item">
-														<a href="services-style-three.html" className="nav-link">Services Style Three</a>
-													</li>
-													<li className="nav-item">
-														<a href="services-details.html" className="nav-link">Service Details</a>
-													</li>
-												</ul>
-											</li>
-
-											<li className="nav-item">
-												<a href="team.html" className="nav-link">Team</a>
-											</li>
-
-											<li className="nav-item">
-												<a href="testimonials.html" className="nav-link">Testimonials</a>
-											</li>
-											
-											<li className="nav-item">
-												<a href="pricing.html" className="nav-link">Pricing</a>
-											</li>
-
-											<li className="nav-item">
-												<a href="#" className="nav-link">
-													User
-													<i className="bx bx-chevron-right"></i>
-												</a>
-
-												<ul className="dropdown-menu">
-													<li className="nav-item">
-														<a href="my-account.html" className="nav-link">My Account</a>
-													</li>
-													<li className="nav-item">
-														<a href="log-in.html" className="nav-link">Log In</a>
-													</li>
-													<li className="nav-item">
-														<a href="registration.html" className="nav-link">Registration</a>
-													</li>
-													<li className="nav-item">
-														<a href="recover-password.html" className="nav-link">Recover Password</a>
-													</li>
-												</ul>
-											</li>
-
-											<li className="nav-item">
-												<a href="faq.html" className="nav-link">FAQ</a>
-											</li>
-											<li className="nav-item">
-												<a href="privacy-policy.html" className="nav-link">Privacy Policy</a>
-											</li>
-											<li className="nav-item">
-												<a href="terms-conditions.html" className="nav-link">Terms & Conditions</a>
-											</li>
-											<li className="nav-item">
-												<a href="coming-soon.html" className="nav-link">Coming Soon</a>
-											</li>
-											<li className="nav-item">
-												<a href="404.html" className="nav-link">404 Error Page</a>
-											</li>
-										</ul>
+									<li className="nav-item">
+										<Link to="/team" className="nav-link">Team</Link>
 									</li>
 
 									<li className="nav-item">
