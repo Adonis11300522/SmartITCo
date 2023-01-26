@@ -1,5 +1,6 @@
 import { Image } from "react-bootstrap";
 import Logo from '../../../assets/img/logo.svg';
+import { Link } from "react-router-dom";
 
 export const Header = () => {
     return (
@@ -23,35 +24,11 @@ export const Header = () => {
 							<div className="collapse navbar-collapse mean-menu">
 								<ul className="navbar-nav m-auto">
 									<li className="nav-item">
-										<a href="#" className="nav-link active">
-											Home
-											<i className="bx bx-chevron-down"></i>
-										</a>
-
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<a href="index.html" className="nav-link">Home One</a>
-											</li>
-											<li className="nav-item">
-												<a href="index-2.html" className="nav-link active">Home Two</a>
-											</li>
-											<li className="nav-item">
-												<a href="index-3.html" className="nav-link">Home Three</a>
-											</li>
-											<li className="nav-item">
-												<a href="index-4.html" className="nav-link">Home Four</a>
-											</li>
-											<li className="nav-item">
-												<a href="index-5.html" className="nav-link">Home Five</a>
-											</li>
-										</ul>
+										<Link to="/" className="nav-link">Home</Link>
 									</li>
 
 									<li className="nav-item">
-										<a href="#" className="nav-link">
-											Pages
-											<i className="bx bx-chevron-down"></i>
-										</a>
+										<Link to="/" className="nav-link">Services<i className="bx bx-chevron-down"></i></Link>
 
 										<ul className="dropdown-menu">
 											<li className="nav-item">
@@ -133,87 +110,19 @@ export const Header = () => {
 									</li>
 
 									<li className="nav-item">
-										<a href="#" className="nav-link">
-											Solutions
-											<i className="bx bx-chevron-down"></i>
-										</a>
-
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<a href="solutions.html" className="nav-link">Solutions</a>
-											</li>
-											<li className="nav-item">
-												<a href="solution-details.html" className="nav-link">Solution Details</a>
-											</li>
-										</ul>
+										<Link to="/" className="nav-link">About Us</Link>
 									</li>
 
 									<li className="nav-item">
-										<a href="#" className="nav-link">
-											Shop
-											<i className="bx bx-chevron-down"></i>
-										</a>
-
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<a href="products.html" className="nav-link">Products</a>
-											</li>
-											<li className="nav-item">
-												<a href="shopping-cart.html" className="nav-link">Shopping Cart</a>
-											</li>
-											<li className="nav-item">
-												<a href="checkout.html" className="nav-link">Checkout</a>
-											</li>
-											<li className="nav-item">
-												<a href="single-product.html" className="nav-link">Single Product</a>
-											</li>
-											<li className="nav-item">
-												<a href="wishlist.html" className="nav-link">Wishlist</a>
-											</li>
-										</ul>
-									</li>
-
-									<li className="nav-item">
-										<a href="#" className="nav-link">
-											Blog
-											<i className="bx bx-chevron-down"></i>
-										</a>
-
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<a href="blog-column-one.html" className="nav-link">Blog Column One</a>
-											</li>
-											<li className="nav-item">
-												<a href="blog-column-two.html" className="nav-link">Blog Column Two</a>
-											</li>
-											<li className="nav-item">
-												<a href="blog-column-three.html" className="nav-link">Blog Column Three</a>
-											</li>
-											<li className="nav-item">
-												<a href="blog-left-sidebar.html" className="nav-link">Blog Left Sidebar</a>
-											</li>
-											<li className="nav-item">
-												<a href="blog-details.html" className="nav-link">Blog Details</a>
-											</li>
-										</ul>
-									</li>
-
-									<li className="nav-item">
-										<a href="contact.html" className="nav-link">Contact</a>
+										<Link to="/" className="nav-link">Contact Us</Link>
 									</li>
 								</ul>
 								
 								<div className="others-option">
-									<div className="cart-icon">
-										<a href="shopping-cart.html">
-											<i className="bx bx-cart"></i>
-											<span>0</span>
-										</a>
-									</div>
-
+																		
 									<div className="get-quote">
 										<a href="#" className="default-btn">
-											<span>Get a Quote</span>
+											<span>Join Us</span>
 										</a>
 									</div>
 								</div>

@@ -259,7 +259,7 @@ Default Btn Area Style*/
   width: 2px;
   height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(transparent));
-  background: linear-gradient(top, #ffffff, transparent);
+  background: linear-gradient(to top, #ffffff, transparent);
   -webkit-animation: top 2s linear infinite;
           animation: top 2s linear infinite;
   -webkit-animation-delay: 1s;
@@ -274,7 +274,7 @@ Default Btn Area Style*/
   width: 2px;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(transparent));
-  background: linear-gradient(bottom, #ffffff, transparent);
+  background: linear-gradient(to bottom, #ffffff, transparent);
   -webkit-animation: bottom 2s linear infinite;
           animation: bottom 2s linear infinite;
   -webkit-animation-delay: 1s;
@@ -289,7 +289,7 @@ Default Btn Area Style*/
   width: 100%;
   height: 2px;
   background: -webkit-gradient(linear, right top, left top, from(#ffffff), to(transparent));
-  background: linear-gradient(right, #ffffff, transparent);
+  background: linear-gradient(to right, #ffffff, transparent);
   -webkit-animation: right 2s linear infinite;
           animation: right 2s linear infinite;
 }
@@ -302,7 +302,7 @@ Default Btn Area Style*/
   width: 100%;
   height: 2px;
   background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(transparent));
-  background: linear-gradient(left, #ffffff, transparent);
+  background: linear-gradient(to left, #ffffff, transparent);
   -webkit-animation: left 2s linear infinite;
           animation: left 2s linear infinite;
 }
@@ -1784,7 +1784,7 @@ Services Area Style
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#000219), to(transparent));
-  background: linear-gradient(bottom, #000219, transparent);
+  background: linear-gradient(to bottom, #000219, transparent);
 }
 
 .single-services .services-content {
@@ -2355,7 +2355,7 @@ Blog Area Style
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#000219), to(transparent));
-  background: linear-gradient(bottom, #000219, transparent);
+  background: linear-gradient(to bottom, #000219, transparent);
 }
 
 .blog-area.blog-area-four .single-blog .blog-content {
@@ -6872,7 +6872,7 @@ Overly Area Style*/
   width: 100%;
   height: 2px;
   background: -webkit-gradient(linear, left top, right top, from(#e21f36), to(transparent));
-  background: linear-gradient(left, #e21f36, transparent);
+  background: linear-gradient(to left, #e21f36, transparent);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
@@ -6887,7 +6887,7 @@ Overly Area Style*/
   width: 2px;
   height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#e21f36), to(transparent));
-  background: linear-gradient(top, #e21f36, transparent);
+  background: linear-gradient(to top, #e21f36, transparent);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
@@ -6901,7 +6901,7 @@ Overly Area Style*/
   width: 100%;
   height: 2px;
   background: -webkit-gradient(linear, left top, right top, from(transparent), to(#e21f36));
-  background: linear-gradient(left, transparent, #e21f36);
+  background: linear-gradient(to left, transparent, #e21f36);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
@@ -6915,7 +6915,7 @@ Overly Area Style*/
   width: 2px;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#e21f36), to(transparent));
-  background: linear-gradient(bottom, #e21f36, transparent);
+  background: linear-gradient(to bottom, #e21f36, transparent);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
