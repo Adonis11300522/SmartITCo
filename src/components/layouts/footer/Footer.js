@@ -17,24 +17,24 @@ export const Footer = () => {
 
                                 <ul className="social-icon">
                                     <li>
-                                        <a href="#">
+                                        <span>
                                             <i className="bx bxl-facebook"></i>
-                                        </a>
+                                        </span>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <span>
                                             <i className="bx bxl-instagram"></i>
-                                        </a>
+                                        </span>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <span>
                                             <i className="bx bxl-linkedin-square"></i>
-                                        </a>
+                                        </span>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <span>
                                             <i className="bx bxl-twitter"></i>
-                                        </a>
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
@@ -52,7 +52,7 @@ export const Footer = () => {
                                     <li>
                                         <i className="bx bxs-envelope"></i>
                                         <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#5b333e3737341b283e2a2f2275383436"><span className="__cf_email__" data-cfemail="c1a9a4adadae81b2a4b0b5b8efa2aeac">example@smart.it.co</span></a>
-                                        <a href="#">skype: adonis11300522@gmail.com</a>
+                                        <span>skype: adonis11300522@gmail.com</span>
                                     </li>
                                     <li>
                                         <i className="bx bxs-phone-call"></i>
@@ -69,19 +69,19 @@ export const Footer = () => {
 
                                 <ul className="import-link">
                                     <li>
-                                        <a href="#">Website Design</a>
+                                        <span>Website Design</span>
                                     </li>
                                     <li>
-                                        <a href="#">Mobile Design</a>
+                                        <span>Mobile Design</span>
                                     </li>
                                     <li>
-                                        <a href="#">Website Development</a>
+                                        <span>Website Development</span>
                                     </li>
                                     <li>
-                                        <a href="#">Mobile Development</a>
+                                        <span>Mobile Development</span>
                                     </li>
                                     <li>
-                                        <a href="#">Software Development</a>
+                                        <span>Software Development</span>
                                     </li>
                                 </ul>
                             </div>
@@ -93,22 +93,22 @@ export const Footer = () => {
 
                                 <ul className="import-link">
                                     <li>
-                                        <a href="#">Mobile Application with AI</a>
+                                        <span>Mobile Application with AI</span>
                                     </li>
                                     <li>
-                                        <a href="#">E-commerce platform</a>
+                                        <span>E-commerce platform</span>
                                     </li>
                                     <li>
-                                        <a href="#">ERP platform</a>
+                                        <span>ERP platform</span>
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <span>Blog</span>
                                     </li>
                                     <li>
-                                        <a href="#">Case Studies</a>
+                                        <span>Case Studies</span>
                                     </li>
                                     <li>
-                                        <a href="#">User Guides</a>
+                                        <span>User Guides</span>
                                     </li>
                                 </ul>
                             </div>

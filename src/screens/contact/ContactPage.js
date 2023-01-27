@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { PageTitleSection } from "../../components/pagetitle/PageTitle";
 import { Preloader } from "../../components/preloader/Preloader";
+import { Link } from "react-router-dom";
 
 export default function ContactPage() {
 
@@ -27,7 +28,7 @@ export default function ContactPage() {
                                     <div className="contact-wrap">
                                         <div className="contact-form">
                                             <div className="contact-title">
-                                                <h2>Write Us</h2>
+                                                <h2>Ready to move faster with the Top 1% of IT Talent?</h2>
                                             </div>
 
                                             <form id="contactForm">
@@ -44,6 +45,22 @@ export default function ContactPage() {
                                                         <div className="form-group">
                                                             <label className="mb-2">Email Address</label>
                                                             <input type="email" name="email" id="email" className="form-control" required data-error="Please enter your email" />
+                                                            <div className="help-block with-errors"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-sm-6">
+                                                        <div className="form-group">
+                                                            <label className="mb-2">Company Name</label>
+                                                            <input type="text" name="name" id="name" className="form-control" required data-error="Please enter your name" />
+                                                            <div className="help-block with-errors"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-sm-6">
+                                                        <div className="form-group">
+                                                            <label className="mb-2">Phone Number</label>
+                                                            <input type="number" name="email" id="email" className="form-control" required data-error="Please enter your email" />
                                                             <div className="help-block with-errors"></div>
                                                         </div>
                                                     </div>
@@ -80,7 +97,7 @@ export default function ContactPage() {
                                 <div className="col-lg-4">
                                     <div className="contact-info">
                                         <h3>Our contact details</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p> */}
 
                                         <ul className="address">
                                             <li className="location">
@@ -91,14 +108,14 @@ export default function ContactPage() {
                                             <li>
                                                 <i className="bx bxs-phone-call"></i>
                                                 <span>Phone</span>
-                                                <a href="tel:+1-(514)-312-5678">+1 (804) 571-0993</a>
-                                                <a href="tel:+1-(514)-312-6677">+1 (804) 571-0993</a>
+                                                <Link to="#">+1 (804) 571-0993</Link>
+                                                <Link to="#">+1 (804) 571-0993</Link>
                                             </li>
                                             <li>
                                                 <i className="bx bxs-envelope"></i>
                                                 <span>Email</span>
-                                                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#c6aea3aaaaa986b5a3b7b2bfe8a5a9ab"><span className="__cf_email__" data-cfemail="a9c1ccc5c5c6e9daccd8ddd087cac6c4"></span></a>
-                                                <a href="#">skype: adonis11300522@gmail.com</a>
+                                                <Link to="#"><span className="__cf_email__" data-cfemail="a9c1ccc5c5c6e9daccd8ddd087cac6c4"></span></Link>
+                                                <Link to="#">skype: adonis11300522@gmail.com</Link>
                                             </li>
                                         </ul>
 
@@ -107,24 +124,24 @@ export default function ContactPage() {
 
                                             <ul className="social-wrap">
                                                 <li>
-                                                    <a href="#" target="_blank">
+                                                    <Link to="#">
                                                         <i className="bx bxl-twitter"></i>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#" target="_blank">
+                                                    <Link to="#">
                                                         <i className="bx bxl-instagram"></i>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#" target="_blank">
+                                                    <Link to="#">
                                                         <i className="bx bxl-facebook"></i>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#" target="_blank">
+                                                    <Link to="#">
                                                         <i className="bx bxl-youtube"></i>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>

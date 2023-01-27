@@ -18,19 +18,13 @@ export const ServicesSection = () => {
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-services">
 							<div className="services-img">
-								<a href="services-details.html">
+								<span>
 									<Image src={ServiceImg1} alt="Image"/>
-								</a>
+								</span>
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Website & Mobile Design</a></h3>
-								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
-
-								<a href="services-details.html" className="read-more">
-									Read More
-									<i className="flaticon-right-arrow"></i>
-								</a>
+								<h3><span className="text-white">Website & Mobile Design</span></h3>								
 							</div>
 						</div>
 					</div>
@@ -38,19 +32,13 @@ export const ServicesSection = () => {
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-services">
 							<div className="services-img">
-								<a href="services-details.html">
+								<span>
 									<Image src={ServiceImg2} alt="Image"/>
-								</a>
+								</span>
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Website Development</a></h3>
-								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
-
-								<a href="services-details.html" className="read-more">
-									Read More
-									<i className="flaticon-right-arrow"></i>
-								</a>
+								<h3><span className="text-white">Website Development</span></h3>
 							</div>
 						</div>
 					</div>
@@ -58,19 +46,13 @@ export const ServicesSection = () => {
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-services">
 							<div className="services-img">
-								<a href="services-details.html">
+								<span>
 									<Image src={ServiceImg3} alt="Image"/>
-								</a>
+								</span>
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Mobile Development</a></h3>
-								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
-
-								<a href="services-details.html" className="read-more">
-									Read More
-									<i className="flaticon-right-arrow"></i>
-								</a>
+								<h3><span className="text-white">Mobile Development</span></h3>
 							</div>
 						</div>
 					</div>
@@ -78,19 +60,13 @@ export const ServicesSection = () => {
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-services">
 							<div className="services-img">
-								<a href="services-details.html">
+								<span>
 									<Image src={ServiceImg4} alt="Image"/>
-								</a>
+								</span>
 							</div>
 
 							<div className="services-content">
-								<h3><a href="services-details.html">Software Development</a></h3>
-								{/* //<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p> */}
-
-								<a href="services-details.html" className="read-more">
-									Read More
-									<i className="flaticon-right-arrow"></i>
-								</a>
+								<h3><span className="text-white">Software Development</span></h3>
 							</div>
 						</div>
 					</div>

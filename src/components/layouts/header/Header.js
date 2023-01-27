@@ -53,9 +53,9 @@ export const Header = () => {
 								<div className="others-option">
 
 									<div className="get-quote">
-										<a href="#" className="default-btn">
+										<Link to="#" className="default-btn">
 											<span>Join Us</span>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
